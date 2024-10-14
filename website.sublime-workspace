@@ -1,0 +1,1061 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pre",
+				"predicted_hldng_s2"
+			],
+			[
+				"df_countr",
+				"df_country_codes"
+			],
+			[
+				"PATH_TO_",
+				"PATH_TO_OUTPUT"
+			],
+			[
+				"iso",
+				"iso3n_d"
+			],
+			[
+				"iss",
+				"issuance_share"
+			],
+			[
+				"issuanc",
+				"issuance_share"
+			],
+			[
+				"hl",
+				"hldng_tot"
+			],
+			[
+				"in",
+				"in_sample_d"
+			],
+			[
+				"iso3n",
+				"iso3n_o"
+			],
+			[
+				"co",
+				"country_display"
+			],
+			[
+				"is",
+				"iso3n"
+			],
+			[
+				"indica",
+				"indicatorcode"
+			],
+			[
+				"indicator",
+				"indicatorcode"
+			],
+			[
+				"indi",
+				"indicatorcode"
+			],
+			[
+				"iso3",
+				"iso3a_currency"
+			],
+			[
+				"issuacn",
+				"issuance_share"
+			],
+			[
+				"av",
+				"average_avail"
+			],
+			[
+				"fx",
+				"fx_return_ye"
+			],
+			[
+				"hld",
+				"hldng_TOT"
+			],
+			[
+				"hldn",
+				"hldng_TOT"
+			],
+			[
+				"hldng",
+				"hldng_cc"
+			],
+			[
+				"wt",
+				"wt_issuer"
+			],
+			[
+				"country",
+				"country_display"
+			],
+			[
+				"rank",
+				"rank_debt_avg"
+			],
+			[
+				"s",
+				"shldng_cumulative"
+			],
+			[
+				"shld",
+				"shldng_cumulative"
+			],
+			[
+				"shldng_",
+				"shldng_cumulative"
+			],
+			[
+				"shl",
+				"shldng_cumulative"
+			],
+			[
+				"us",
+				"us_hldng_fc_usd"
+			],
+			[
+				"us_hldn",
+				"us_hldng_fc_usd"
+			],
+			[
+				"TOT",
+				"TOT_hldng_cbcr"
+			],
+			[
+				"counter",
+				"counterpartsectorcode"
+			],
+			[
+				"count",
+				"counterpartcountrycode"
+			],
+			[
+				"coun",
+				"counterpartcountrycode"
+			],
+			[
+				"hldng_",
+				"hldng_cbcr_ALL"
+			],
+			[
+				"w",
+				"w_cbcr_st_USD"
+			],
+			[
+				"hldnng",
+				"hldng_tot_NA"
+			],
+			[
+				"us_hldng",
+				"us_hldng_ac"
+			],
+			[
+				"debt_",
+				"debt_fc_net_us_usd"
+			],
+			[
+				"j",
+				"us_hldng_fc_jpy"
+			],
+			[
+				"eur",
+				"eur_count"
+			],
+			[
+				"missing",
+				"missing_count"
+			],
+			[
+				"W",
+				"WithdrawalDate"
+			],
+			[
+				"cun",
+				"country_uppercase"
+			],
+			[
+				"deb",
+				"debt_dm_dc_p"
+			],
+			[
+				"gd",
+				"gdp_o"
+			],
+			[
+				"ra",
+				"ratio_eur_tot"
+			],
+			[
+				"issu",
+				"issuecurrency"
+			],
+			[
+				"debt",
+				"debt_dm_dc"
+			],
+			[
+				"issuer",
+				"issuerresidence"
+			],
+			[
+				"issue",
+				"issuecurrency"
+			],
+			[
+				"iso_",
+				"iso3n_o"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Stata Improved Editor/Stata.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Stata Improved Editor/Stata.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"term tab",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"rename",
+				"File: Rename File"
+			],
+			[
+				"dupli",
+				"File Manager: Duplicate"
+			],
+			[
+				"duplicate",
+				"File Manager: Duplicate"
+			],
+			[
+				"duplica",
+				"File Manager: Duplicate"
+			],
+			[
+				"duplic",
+				"File Manager: Duplicate"
+			],
+			[
+				"termta",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"ter mtab",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"term",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"move",
+				"File Manager: Move"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"date",
+				"InsertDate: Default"
+			],
+			[
+				"dupla",
+				"File Manager: Duplicate"
+			],
+			[
+				"mono",
+				"Monokai Pro: select theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"goo",
+				"Google Spell Check"
+			],
+			[
+				"g",
+				"Google Spell Check"
+			],
+			[
+				"google",
+				"Google Spell Check"
+			],
+			[
+				"goog",
+				"Google Spell Check"
+			],
+			[
+				"delete",
+				"File Manager: Delete"
+			],
+			[
+				"du",
+				"File Manager: Duplicate"
+			],
+			[
+				"go",
+				"Google Spell Check"
+			],
+			[
+				"gog",
+				"Google Spell Check"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net"
+	],
+	"file_history":
+	[
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_modules/estimate_res_ppml.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_final_sample.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/main.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_bis_dss.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_currency_codes.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_modules/estimate_ppml.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_modules/estimate_issuance_less_cb.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/settings/settings.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_gcap.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_country_codes.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_cepii_gravity.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_imf_cpis.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_imf_cofer.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_imf_sefer.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_currency_codes_backup.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_country_codes_backup.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_modules/estimate_cppml.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_modules/dss_check.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_bis_dss_check.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/paths/paths.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_bis_dss_backup_20240911.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_modules/estimate_cppml_backup.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/helper_functions/helper_functions.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/output_directories/output_directories.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/central_banks/estimate.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_bis_dds.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/central_banks/central_banks.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_sefer.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/readme.txt",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_cmle.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_ple.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_cpis.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/header_footer/header_footer.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/header_footer/footer.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_SEFER.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/monitor/monitor.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/output_directories/untitled",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/sample/sample_countries.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_cepii_gravity.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/holdings_currency/holdings_currency_short_term_central_bank.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/weights/weights_cb_holdings_by_country.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_bis_domestic_issuance_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_cofer_reserves.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_cpis_sefer.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/main/main.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/sample/sample_extracted.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/home_bias/home_bias_scatter.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/gravity/holdings_country_short_term_stage_one_international.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/gravity/holdings_country_short_term_stage_one_domestic.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_bis_dds_debt_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_bis_dds_debt_all_maturity.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_cpis_debt_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/crosswalk_country_codes/crosswalk_country_codes_including_offshore.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_cpi.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/weights/weights_issuance_by_currency_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/holdings_currency/holdings_currency_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/home_bias/home_bias_hldings.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_imf_cpis_short_term_old.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_exchange_rates.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_imf_cpis_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/holdings_country/holdings_country_domestic_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/holdings_country/holdings_country_domestic_short_term_old_20240606.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/home_bias/portfolio_returns_country.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/sample/sample_country_selection.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/sample/sample_extracted_data.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/sample/sample_counrty_selection.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_treasury_tics_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/crosswalk_currency_codes/crosswalk_currency_codes.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_short_term_interest_rates.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/home_bias/portfolio_returns_world.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/sample/sample.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/sample/overview_data_coverage.do",
+		"/Users/rorymullen/Library/Application Support/Sublime Text/Packages/Stata Improved Editor/Default (OSX).sublime-keymap",
+		"/Users/rorymullen/Library/Application Support/Sublime Text/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/table_country_data_overview/table_country_data_overview.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/weights/weights_cb_holdings_by_maturity.do",
+		"/Users/rorymullen/Library/Application Support/Sublime Text/Packages/User/asterisk_comment.py",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_bis_dds_debt_short_term_by_country.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/holdings_currency/holdings_currency_short_term_check_countries_with_negatives.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_bis_dds_debt_all_maturity_by_country.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_bis_dds_debt_all_maturity_global_by_currency.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/master/master.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_bis_domestic_issuance_all_maturity.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_short_positions_debt_short_term.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/figure_holdings_reported_neg/figure_holdings_reported_neg.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/holdings_country/holdings_country_domestic_short_term_old.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/table_bpm6_reporters/table_bpm6_reporters.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/table_debt_reported/table_debt_reported.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/table_holdings_estimated/table_holdings_estimated.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/table_holdings_reported/table_holdings_reported.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/table_holdings_reported_neg/table_holdings_reported_neg.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/table_short_positions/table_short_positions.do",
+		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/stata/code/collapse/collapse.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_exchange_rates.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/home_bias/home_bias_returns.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_short_term_interest_rates.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/home_bias/home_bias_hldings.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/holdings_currency/holdings_currency_short_term.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/master/master.do",
+		"/Users/rorymullen/Library/Application Support/Sublime Text/Packages/InsertDate/insert_date.sublime-settings",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/crosswalk_country_codes/crosswalk_country_codes_including_offshore.do",
+		"/Users/rorymullen/Library/Application Support/Sublime Text/Packages/User/insert_date.sublime-settings",
+		"/Users/rorymullen/Library/Application Support/Sublime Text/Packages/InsertDate/README.md",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/holdings_country/holdings_country_domestic_short_term.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/crosswalk_country_codes/crosswalk_country_codes.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/extract/extract_imf_cpis_debt_short_term.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/extract/extract_oecd_short_term_interest_rates_backup_20240217_1148.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/data/imf_international_financial_statistics/readme.txt",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_imf_cpis_short_term.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_bpm6_reporters/table_bpm6_reporters.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_debt_reported/table_debt_reported.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_holdings_estimated/table_holdings_estimated.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_holdings_reported/table_holdings_reported.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_holdings_reported_neg/table_holdings_reported_neg.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_short_positions/table_short_positions.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/weights/weights_cb_holdings_by_country.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/weights/weights_cb_holdings_by_maturity.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/weights/weights_issuance_by_currency_short_term.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/extract/extract_oecd_short_term_interest_rates.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/extract/extract_treasury_tics_short_term.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/figure_holdings_reported_neg/figure_holdings_reported_neg.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_bis_domestic_issuance_all_maturity.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_bis_domestic_issuance_short_term.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/holdings_country/holdings_country_domestic_short_term_old.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/holdings_currency/holdings_currency_short_term_central_bank.do",
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/holdings_currency/holdings_currency_short_term_check_countries_with_negatives.do"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 187.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "website.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"estimate",
+				"modules/estimate/estimate.py"
+			],
+			[
+				"extract final",
+				"modules/extract/extract_modules/extract_final_sample.py"
+			],
+			[
+				"main",
+				"main.py"
+			],
+			[
+				"dss",
+				"modules/extract/extract_modules/extract_bis_dss.py"
+			],
+			[
+				"extract",
+				"modules/extract/extract_modules/extract_currency_codes.py"
+			],
+			[
+				"estim",
+				"modules/estimate/estimate_modules/estimate_ppml.py"
+			],
+			[
+				"estima",
+				"modules/estimate/estimate.py"
+			],
+			[
+				"setting",
+				"modules/settings/settings.py"
+			],
+			[
+				"ex",
+				"modules/extract/extract_modules/extract_country_codes.py"
+			],
+			[
+				"extract fin",
+				"modules/extract/extract_modules/extract_final_sample.py"
+			],
+			[
+				"extrac",
+				"modules/extract/extract.py"
+			],
+			[
+				"extract sav",
+				"modules/extract/extract_modules/extract_cepii_gravity.py"
+			],
+			[
+				"extract gcap",
+				"modules/extract/extract_modules/extract_gcap.py"
+			],
+			[
+				"extract dss",
+				"modules/extract/extract_modules/extract_bis_dss.py"
+			],
+			[
+				"country",
+				"modules/extract/extract_modules/extract_country_codes.py"
+			],
+			[
+				"sefer",
+				"modules/extract/extract_modules/extract_imf_sefer.py"
+			],
+			[
+				"cpis",
+				"modules/extract/extract_modules/extract_imf_cpis.py"
+			],
+			[
+				"cofer",
+				"modules/extract/extract_modules/extract_imf_cofer.py"
+			],
+			[
+				"gcap",
+				"modules/extract/extract_modules/extract_gcap.py"
+			],
+			[
+				"extract cpis",
+				"modules/extract/extract_modules/extract_imf_cpis.py"
+			],
+			[
+				"extract country",
+				"modules/extract/extract_modules/extract_country_codes.py"
+			],
+			[
+				"extract curr",
+				"modules/extract/extract_modules/extract_currency_codes.py"
+			],
+			[
+				"extract g",
+				"modules/extract/extract_modules/extract_gcap.py"
+			],
+			[
+				"sett",
+				"modules/settings/settings.py"
+			],
+			[
+				"dss chce",
+				"modules/estimate/estimate_modules/dss_check.py"
+			],
+			[
+				"seting",
+				"modules/settings/settings.py"
+			],
+			[
+				"paths",
+				"modules/paths/paths.py"
+			],
+			[
+				"path",
+				"modules/paths/paths.py"
+			],
+			[
+				"grav",
+				"modules/extract/extract_modules/extract_cepii_gravity.py"
+			],
+			[
+				"gravit",
+				"modules/extract/extract_modules/extract_cepii_gravity.py"
+			],
+			[
+				"ppml",
+				"modules/estimate/estimate_modules/estimate_cppml.py"
+			],
+			[
+				"cep",
+				"modules/extract/extract_modules/extract_cepii_gravity.py"
+			],
+			[
+				"extract d",
+				"modules/extract/extract_modules/extract_bis_dss.py"
+			],
+			[
+				"gravi",
+				"modules/extract/extract_modules/extract_cepii_gravity.py"
+			],
+			[
+				"hel",
+				"modules/helper_functions/helper_functions.py"
+			],
+			[
+				"help",
+				"modules/helper_functions/helper_functions.py"
+			],
+			[
+				"di",
+				"modules/output_directories/output_directories.py"
+			],
+			[
+				"dir",
+				"modules/output_directories/output_directories.py"
+			],
+			[
+				"final",
+				"modules/extract/extract_modules/extract_final_sample.py"
+			],
+			[
+				"estimate ",
+				"modules/estimate/estimate_modules/estimate_issuance_less_cb.py"
+			],
+			[
+				"extract cpi",
+				"modules/extract/extract_modules/extract_imf_cpis.py"
+			],
+			[
+				"final ",
+				"modules/extract/extract_modules/extract_final_sample.py"
+			],
+			[
+				"extract f",
+				"modules/extract/extract_modules/extract_final_sample.py"
+			],
+			[
+				"dds",
+				"modules/extract/extract_modules/extract_bis_dds.py"
+			],
+			[
+				"curren",
+				"modules/extract/extract_modules/extract_currency_codes.py"
+			],
+			[
+				"curre",
+				"modules/extract/extract_modules/extract_currency_codes.py"
+			],
+			[
+				"central",
+				"modules/central_banks/central_banks.py"
+			],
+			[
+				"extraxct cp",
+				"modules/extract/extract_modules/extract_imf_cpis.py"
+			],
+			[
+				"settings",
+				"modules/settings/settings.py"
+			],
+			[
+				"cepp",
+				"modules/extract/extract_modules/extract_cepii_gravity.py"
+			],
+			[
+				"gravity",
+				"modules/extract/extract_modules/extract_cepii_gravity.py"
+			],
+			[
+				"bis",
+				"modules/extract/extract_modules/extract_bis_dds.py"
+			],
+			[
+				"currenc",
+				"modules/extract/extract_modules/extract_currency_codes.py"
+			],
+			[
+				"extract coun",
+				"modules/extract/extract_modules/extract_country_codes.py"
+			],
+			[
+				"cpis ",
+				"modules/extract/extract_modules/extract_imf_cpis.py"
+			],
+			[
+				"dds ",
+				"modules/extract/extract_modules/extract_bis_dds.py"
+			],
+			[
+				"imf sefer",
+				"modules/extract/extract_modules/extract_imf_cofer.py"
+			],
+			[
+				"extract cofer",
+				"modules/extract/extract_modules/extract_imf_cofer.py"
+			],
+			[
+				"extract bis",
+				"modules/extract/extract_modules/extract_bis_dds.py"
+			],
+			[
+				"read",
+				"modules/estimate/readme.txt"
+			],
+			[
+				"readme",
+				"modules/estimate/readme.txt"
+			],
+			[
+				"mle",
+				"modules/estimate/estimate_cmle.py"
+			],
+			[
+				"imf cp",
+				"modules/extract/extract_modules/extract_imf_cpis.py"
+			],
+			[
+				"extract bis dds",
+				"modules/extract/extract_modules/extract_bis_dds.py"
+			],
+			[
+				"hea",
+				"modules/header_footer/header_footer.py"
+			],
+			[
+				"foot",
+				"modules/header_footer/footer.py"
+			],
+			[
+				"curr",
+				"modules/extract/extract_modules/extract_currency_codes.py"
+			],
+			[
+				"header",
+				"modules/header_footer/header_footer.py"
+			],
+			[
+				"pat",
+				"modules/paths/paths.py"
+			],
+			[
+				"outp",
+				"modules/output_directories/output_directories.py"
+			],
+			[
+				"SEFER",
+				"extract/extract_imf_cpis_sefer.do"
+			],
+			[
+				"extract cov",
+				"extract/extract_imf_cofer_reserves.do"
+			],
+			[
+				"gravity domes",
+				"gravity/gravity_bis_domestic_issuance_short_term.do"
+			],
+			[
+				"weightsd ",
+				"weights/weights_cb_holdings_by_country.do"
+			],
+			[
+				"hold short cen",
+				"holdings_currency/holdings_currency_short_term_central_bank.do"
+			],
+			[
+				"sample co",
+				"sample/sample_countries.do"
+			],
+			[
+				"sample ex",
+				"sample/sample_extracted.do"
+			],
+			[
+				"home bias scae",
+				"home_bias/home_bias_scatter.do"
+			],
+			[
+				"sample ",
+				"sample/sample_countries.do"
+			],
+			[
+				"scatter",
+				"home_bias/home_bias_scatter.do"
+			],
+			[
+				"country ",
+				"sample/sample_country_selection.do"
+			],
+			[
+				"country slec",
+				"sample/sample_counrty_selection.do"
+			],
+			[
+				"sample",
+				"sample/sample_counrty_selection.do"
+			],
+			[
+				"master",
+				"gravity/gravity_bis_domestic_issuance_short_term.do"
+			],
+			[
+				"interest",
+				"extract/extract_imf_short_term_interest_rates.do"
+			],
+			[
+				"intere",
+				"extract/extract_imf_short_term_interest_rates.do"
+			],
+			[
+				"mast",
+				"master/master.do"
+			],
+			[
+				"mas",
+				"master/master.do"
+			],
+			[
+				"exchange",
+				"extract/extract_imf_exchange_rates.do"
+			],
+			[
+				"countr",
+				"crosswalk_country_codes/crosswalk_country_codes_including_offshore.do"
+			],
+			[
+				"country wei",
+				"cb_reserve_country_weights/cb_reserve_country_weights.do"
+			],
+			[
+				"currne",
+				"crosswalk_currency_codes/crosswalk_currency_codes.do"
+			],
+			[
+				"count",
+				"crosswalk_country_codes/crosswalk_country_codes.do"
+			],
+			[
+				"dome",
+				"domestic_holdings/domestic_holdings.do"
+			],
+			[
+				"proje",
+				"stata.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 351.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
