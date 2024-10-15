@@ -215,19 +215,30 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
-	"build_system": "",
+	"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
 		[
 			[
 				[
@@ -261,6 +272,10 @@
 				"File: Rename File"
 			],
 			[
+				"term",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
 				"dupli",
 				"File Manager: Duplicate"
 			],
@@ -283,10 +298,6 @@
 			[
 				"ter mtab",
 				"Terminus: Open Default Shell in Tab (View)"
-			],
-			[
-				"term",
-				"Terminus: Open Default Shell in Panel"
 			],
 			[
 				"termin",
@@ -381,10 +392,27 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/rorymullen/Documents/learn/show/rorymullen.net"
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/202107_fx_intervention",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/202107_fx_intervention/thresholds_dist"
 	],
 	"file_history":
 	[
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/js/scripts.js",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/index.html",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/201610_vintagecapital/tech_choice/tech_choice.tex",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/202107_fx_intervention/thresholds_dist/thresholds_dist.tex",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/css/styles.css",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/202107_fx_intervention/thresholds_dist/preamble.tex",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/201610_vintagecapital/tech_choice/preamble.tex",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/201610_vintagecapital/tech_choice/tech_choice.sh",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/202107_fx_intervention/thresholds_dist/thresholds_dist.sh",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/202107_fx_intervention/thresholds_dist/threshold_dist.tex",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/figure.js",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/images/thresholds.html",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net_local/access/access.txt",
+		"/Users/rorymullen/Documents/learn/show/rorymullen.net/js/script.js",
 		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate_modules/estimate_res_ppml.py",
 		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/estimate/estimate.py",
 		"/Users/rorymullen/Library/CloudStorage/Dropbox/research/202101_carry_trade/python/code/modules/extract/extract_modules/extract_final_sample.py",
@@ -498,25 +526,11 @@
 		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_imf_cpis_short_term.do",
 		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_bpm6_reporters/table_bpm6_reporters.do",
 		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_debt_reported/table_debt_reported.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_holdings_estimated/table_holdings_estimated.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_holdings_reported/table_holdings_reported.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_holdings_reported_neg/table_holdings_reported_neg.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_short_positions/table_short_positions.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/weights/weights_cb_holdings_by_country.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/weights/weights_cb_holdings_by_maturity.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/weights/weights_issuance_by_currency_short_term.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/extract/extract_oecd_short_term_interest_rates.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/extract/extract_treasury_tics_short_term.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/figure_holdings_reported_neg/figure_holdings_reported_neg.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_bis_domestic_issuance_all_maturity.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/gravity/gravity_bis_domestic_issuance_short_term.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/holdings_country/holdings_country_domestic_short_term_old.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/holdings_currency/holdings_currency_short_term_central_bank.do",
-		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/holdings_currency/holdings_currency_short_term_check_countries_with_negatives.do"
+		"/Users/rorymullen/Dropbox/research/202101_carry_trade/stata/code/table_holdings_estimated/table_holdings_estimated.do"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 54.0
 	},
 	"find_in_files":
 	{
@@ -530,6 +544,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"midway, below",
+			"0.2",
+			"axis on top",
+			"thresholds_dist",
+			"\\vphantom{\\big|}",
+			"\\tiny",
+			"tiny",
+			"foot",
+			"script",
+			"black",
+			"pricolo",
+			"thresholds_dist",
+			"model_threshold_dist",
+			"abstract",
+			"<h3>",
+			"main",
+			"sectino",
+			"404040",
+			"333333"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -551,36 +584,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -644,6 +647,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"pream",
+				"figures/202107_fx_intervention/thresholds_dist/preamble.tex"
+			],
+			[
+				"js",
+				"js/scripts.js"
+			],
 			[
 				"estimate",
 				"modules/estimate/estimate.py"
@@ -1052,7 +1063,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 351.0,
 	"status_bar_visible": true,
 	"template_settings":
