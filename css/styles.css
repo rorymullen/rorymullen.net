@@ -1,52 +1,208 @@
+/* General Page Layout */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'EB Garamond', serif; /* Use EB Garamond from Google Fonts */
+    color: #404040; /* Off-black color for text */
+    background-color: white; /* White background */
+    line-height: 1.7; /* Improved readability */
     margin: 0;
     padding: 0;
 }
 
+/* Header Section Styling */
 header {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
+    background-color: #404040; /* Black background for header */
+    color: white; /* White text for header */
+    padding: 20px;
     text-align: center;
+    border-bottom: 1px solid #ddd; /* Light border to separate header */
 }
 
-header h1 {
-    margin: 0;
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover; /* Ensure the image doesn't stretch */
+    margin-bottom: 20px; /* Space below image */
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.profile-section {
+    margin: 0 auto;
+    display: inline-block; /* Center the content */
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.profile-section h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 10px 0 5px;
+    color: white; /* Keep header text white */
 }
 
-nav ul li a {
-    color: #fff;
+.profile-section p {
+    margin: 5px 0;
+    color: white; /* Keep paragraph text white */
+}
+
+/* Links inside the profile section */
+.social-links a {
     text-decoration: none;
+    color: white; /* White links */
+    margin: 0 10px;
+    font-size: 1.1rem;
 }
 
-section {
+.social-links a:hover {
+    text-decoration: underline;
+    color: #ddd; /* Slightly lighter hover color */
+}
+
+/* Reduce margin for h3 to bring co-authors closer to the title */
+h3 {
+    margin-bottom: 5px;
+}
+
+/* Main Content Section */
+main {
     padding: 20px;
 }
 
+/* Headings inside main content */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700; /* Bold weight for section headings */
+    margin-top: 40px;
+    color: #404040; /* Off-black for headings */
+}
+
+/* Articles styling */
 article {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-article h3 {
-    margin-top: 0;
+/* Co-authors styling */
+.co-authors {
+    font-size: 1rem; /* Same font size for both "with" and the names */
+    margin: 0; /* Remove extra margins */
+    padding: 0; /* Remove extra padding */
+    color: inherit; /* Inherit the text color from the surrounding context */
 }
 
+.co-authors a {
+    font-size: inherit; /* Ensure the same font size for links as for the "with" text */
+    color: inherit; /* Inherit the same color as the surrounding text */
+    text-decoration: none; /* No underline for the links */
+}
+
+/* Co-authors styling */
+.abstract {
+    font-size: 1rem; /* Same font size for both "with" and the names */
+    color: inherit; /* Inherit the text color from the surrounding context */
+}
+
+/* Co-authors styling */
+.article-links {
+    font-size: 1rem; /* Same font size for both "with" and the names */
+    margin: 0; /* Remove extra margins */
+    padding: 0; /* Remove extra padding */
+    color: inherit; /* Inherit the text color from the surrounding context */
+}
+
+.article-links a {
+    font-size: inherit; /* Ensure the same font size for links as for the "with" text */
+    color: inherit; /* Inherit the same color as the surrounding text */
+    text-decoration: none; /* No underline for the links */
+}
+
+/* Text elements */
+p, a {
+    font-weight: 400; /* Regular weight for body text */
+    font-size: 1.2rem; /* Slightly larger text for readability */
+    color: #404040; /* Off-black for body text and links */
+}
+
+/* Links for articles and general links */
 a {
-    color: #007BFF;
+    color: #007BFF; /* Standard link color */
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #0056b3; /* Darker hover color for links */
+}
+
+
+/**********************************************/
+/********** Article Card Styling **************/
+/**********************************************/
+
+/* Container for each paper (tile effect) */
+.paper-tile {
+    background-color: #f9f9f9; /* Light background for the tile */
+    padding: 20px; /* Internal padding */
+    margin-bottom: 30px; /* Space between tiles */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: box-shadow 0.3s ease; /* Smooth shadow on hover */
+    max-width: 900px; /* Set a max-width for the tile */
+    margin-left: auto; /* Center the tile horizontally */
+    margin-right: auto; /* Center the tile horizontally */
+}
+
+/* Slightly deeper shadow on hover */
+.paper-tile:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Article figure styling */
+.article-figure {
+    width: 100%; /* Ensure the figure takes full width of the container */
+    max-width: 750px; /* Prevent the figure from becoming too large inside the tile */
+    height: auto; /* Maintain aspect ratio by automatically adjusting height */
+    margin-bottom: 15px; /* Space below the figure */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent; /* Ensure background is transparent to match the site */
+    margin-left: auto; /* Center the figure within the tile */
+    margin-right: auto; /* Center the figure within the tile */
+}
+
+.article-figure img {
+    width: 100%; /* Let the image take up 100% of the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent small inline gaps below the image */
+    border-radius: 4px; /* Make the SVG's corners rounded */
+}
+
+/* Abstract section styling inside tile */
+div[id^="abstract"] {
+    padding: 15px;
+    font-size: 1rem;
+    color: #404040;
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    display: none;
+    margin-top: 10px; /* Space above abstract */
+}
+
+/* Indicate the abstract will drop down with a right-pointing arrow */
+a.abstract-toggle::after {
+    content: '▶'; /* Right arrow when abstract is hidden */
+    font-size: 0.65rem;
+    color: inherit;
+    transition: transform 0.3s ease; /* Smooth transition for rotation */
+    display: inline-block;
+    margin-left: 5px; /* Space between "Abstract" and the arrow */
+}
+
+/* Rotate the arrow down when the abstract is expanded */
+a.abstract-toggle.active::after {
+    transform: rotate(90deg); /* Rotate right arrow to point downwards */
+}
+
+/* Change cursor for the toggle link */
+a.abstract-toggle:hover {
+    cursor: pointer;
 }

@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1728949792 "/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/201610_vintagecapital/tech_choice/preamble.tex" "preamble.pdf" "preamble" 1728949792 2
+  "/Users/rorymullen/Documents/learn/show/rorymullen.net/figures/201610_vintagecapital/tech_choice/preamble.tex" 1728949786 2547 ace2d8b35a4a2bff98a7421455121eba ""
+  "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1726929669 40746 d57a26ccd5154821179b7d9a7646f804 ""
+  "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1727608260 7884332 d063373e552b6d4adf6acbeac0728a15 ""
+  "/usr/local/texlive/2023/texmf.cnf" 1727608214 1067 7c6440d73dca50cd0cc4e7c874302e94 ""
+  "preamble.aux" 1728949792 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "preamble.tex" 1728949786 2547 ace2d8b35a4a2bff98a7421455121eba ""
+  (generated)
+  "preamble.aux"
+  "preamble.log"
+  "preamble.pdf"
+  (rewritten before read)

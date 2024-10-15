@@ -4,50 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rory Mullen | Academic</title>
+    
+    <!-- Google Fonts Embed for EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
+    <!-- About Me Section -->
     <header>
-        <h1>Rory Mullen</h1>
-        <p>Assistant Professor of Finance</p>
-        <nav>
-            <ul>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#teaching">Teaching</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="profile-section">
+            <h1>Rory Mullen</h1>
+            <p>Assistant Professor of Finance</p>
+            <p>Warwick Business School</p>
+            <div class="social-links">
+                <a href="mailto:rory.mullen@wbs.ac.uk">Email</a> |
+                <a href="https://x.com/Rory__Mullen">Twitter</a> | 
+                <a href="https://github.com/rorymullen">GitHub</a> 
+            </div>
+        </div>
     </header>
 
-    <section id="research">
-        <h2>Research</h2>
-        <article>
-            <h3>Paper Title 1</h3>
-            <p><a href="https://ssrn.com/link-to-paper-1">SSRN</a> | <a href="#" onclick="toggleAbstract('abstract1')">Abstract</a></p>
-            <div id="abstract1" style="display:none;">
-                <p>This is the abstract for Paper Title 1.</p>
-            </div>
-        </article>
+    <!-- Research Papers Section -->
+    <main>
 
-        <article>
-            <h3>Paper Title 2</h3>
-            <p><a href="https://ssrn.com/link-to-paper-2">SSRN</a> | <a href="#" onclick="toggleAbstract('abstract2')">Abstract</a></p>
-            <div id="abstract2" style="display:none;">
-                <p>This is the abstract for Paper Title 2.</p>
-            </div>
-        </article>
-    </section>
+        <section id="working-papers">
+            <h2>Working Papers</h2>
+                <div class="paper-tile">
+                    <!-- Figure from Paper -->
+                    <div class="article-figure">
+                        <img src="figures/202107_fx_intervention/thresholds_dist/thresholds_dist.svg" alt="FX Intervention Thresholds">
+                    </div>
+                    
+                    <!-- Paper Title and Co-Authors -->
+                    <h3>Foreign Exchange Interventions and Intermediary Constraints</h3>
+                    <p class="co-authors">with 
+                        <a href="https://sites.google.com/usp.br/alexferreira/home" target="_blank">Alex Ferreira</a>, 
+                        <a href="https://www.giovanni-ricco.com" target="_blank">Giovanni Ricco</a>,
+                        <a href="https://ganeshvnatraj.netlify.app" target="_blank">Ganesh Viswanath-Natraj</a>, and
+                        <a href="https://uk.linkedin.com/in/zijie-wang-987528183" target="_blank">Zijie Wang</a>
+                    </p>
+                    
+                    <!-- Links to Abstract (with toggle), SSRN, etc) -->
+                    <p class="article-links">
+                        <a href="javascript:void(0)" class="abstract-toggle" onclick="toggleAbstract('abstract1')">Abstract</a> |
+                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4976307" target="_blank">SSRN</a>
+                    </p>
+                    
+                    <!-- Abstract Text -->
+                    <div id="abstract1" style="display:none;">
+                        <p class="abstract">
+                            We study the impact of foreign exchange interventions during periods of tight credit constraints. Expanding on the Gabaix and Maggiori (2015) model, we predict that long-lived spot interventions have larger effects on exchange rates than short-lived swaps, unanticipated interventions are more impactful, and tighter credit constraints amplify effects. Using high-frequency data on Brazilian Central Bank interventions from 1999 to 2023, we find that unanticipated spot sales of USD reserves lead to significant domestic currency appreciation and reduced covered interest parity deviations. Spot interventions outperform swaps, especially when global intermediaries are constrained, and enhance market efficiency by lowering USD borrowing costs.
+                        </p>
+                    </div>
+                </div>
 
-    <section id="teaching">
-        <h2>Teaching</h2>
-        <p>Information about your courses and syllabi can go here.</p>
-    </section>
+                <div class="paper-tile">
+                    <!-- Figure placeholder (replace with actual figure if needed) -->
+                    <div class="article-figure">
+                        <!-- Add the appropriate SVG or interactive figure here if you have one -->
+                        <img src="figures/201610_vintagecapital/tech_choice/tech_choice.svg" alt="Technology Choice">
+                    </div>
+                    
+                    <!-- Paper title (no co-authors for this paper) -->
+                    <h3>On Aggregate Fluctuations, Systemic Risk, and the Covariance of Firm-Level Activity</h3>
+                    
+                    <!-- Links (SSRN and Abstract toggle) -->
+                    <p class="article-links">
+                        <a href="#" class="abstract-toggle" onclick="toggleAbstract('abstract2')">Abstract</a> |
+                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4510357" target="_blank">SSRN</a>
+                    </p>
+                    
+                    <!-- Abstract section (initially hidden) -->
+                    <div id="abstract2" style="display:none;">
+                        <p class="abstract">
+                            Pairwise covariances of firm growth rates appear to drive the variance of aggregate growth rates in productivity, sales, and profit for public firms in the United States over the last half-century. High-productivity firms contribute most to the covariances driving aggregate variance, but least per dollar of market value that they generate. This fact may explain why investors demand lower returns from high-productivity firms. A tractable model of within-firm diversification qualitatively matches the empirical evidence, generating endogenous first and second moments of firm and aggregate productivity, and endogenous comovement between firm and aggregate productivity. In the model, movements in firm productivity drive movements in firm sales and profit, and firms’ expected excess stock returns rise as firms’ productivities covary more with aggregate productivity, relative to their market values. A regression analysis lends tentative empirical support to several predictions of the model.
+                        </p>
+                    </div>
+                </div>
+            <!-- Add more working papers here -->
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    </section>
+        <section id="works-in-progress">
+            <h2>Works in Progress</h2>
+            <article>
+                <h3>Coming soon...</h3>
+            </article>
+            <!-- Add more works in progress here -->
+        </section>
+    </main>
 
     <script src="js/scripts.js"></script>
 </body>

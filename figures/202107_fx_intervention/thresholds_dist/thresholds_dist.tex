@@ -1,0 +1,68 @@
+\documentclass[tikz]{standalone}
+\input{preamble.tex}
+\begin{document}
+
+		\begin{tikzpicture}[inner sep = 0.5cm]
+		
+			\begin{axis}[
+				no markers, 
+				domain=0:9.5, 
+				samples=100,
+				axis lines*=left, 
+				xlabel={$\underline{\iota}_t$, $\bar{\iota}_t$}, 
+				ylabel={$f(\underline{\iota}_{t};\theta_{t})$, $f(\bar{\iota}_t;\theta_{t})$},
+				every axis x label/.style={at=(current axis.right of origin),anchor=west},
+	            every axis y label/.style={
+	                at={(ticklabel* cs:1.33)},
+	                anchor=north west, 
+	                xshift=-0.5cm
+	            },
+				height=3.75cm, width=0.925\textwidth,
+				xtick style={draw=none},
+				xtick={2.5, 7, 6.25}, 
+				xticklabel style={yshift=0.3cm},
+				xticklabels={
+					$\vphantom{\Delta}\mu_{\underline{\iota}t}$,
+					$\vphantom{\Delta}\mu_{\bar{\iota}t}$,
+					$\vphantom{\mu}\Delta\iota_t$
+				},
+				scale only axis,
+				ytick=\empty,
+				enlargelimits=false, clip=false, axis on top,
+				xtick pos = bottom,
+				]
+
+				% Bell curves
+				\addplot [thick, pricolor, samples=500, smooth] {gauss(x, 2.5, 0.5)};
+				\addplot [thick, pricolor, samples=500, smooth] {gauss(x, 7, 0.5)};
+
+				% Dashed vertical line for lower threshold mean
+				\draw[densely dashed, pricolor] (2.5,0) -- (2.5,0.8);
+				
+				% Dashed vertical line for upper threshold mean
+				\draw[densely dashed, pricolor] (7,0) -- (7,0.8);
+				
+				% Dashed vertical line for realized trade shock
+				\draw[densely dashed, pricolor] (6.25,0) -- (6.25,0.26);
+
+				% Standard deviation arrows for lower threshold distribution
+				\draw[thick, pricolor, <->, >={Latex[scale=0.75]}]
+	                (1.675,0.2) -- (2.475,0.2) node[midway, below, yshift=0.35cm] {$\sigma_{\underline{\iota}t}$};
+
+				% Standard deviation arrows for upper threshold distribution
+				\draw[thick, pricolor, <->, >={Latex[scale=0.75]}]
+	                (7.025,0.2) -- (7.825,0.2) node[midway, below, yshift=0.35cm] {$\sigma_{\bar{\iota}t}$};
+
+				% Probability shading
+				\addplot [draw=none, name path=A] {gauss(x, 7, 0.5)};
+				\addplot [draw=none, ultra thin, name path=B] {0*x};
+				\addplot [pricolor!25!white] fill between [of=A and B, soft clip={domain=4:6.25}];
+
+				% Curved arrow pointing into probability shading region
+	            \draw[->, thick, pricolor, >={Latex[scale=0.75]}] (4.755,0.6) node[above, yshift=-0.35cm] {$\Delta\eta_{t\vert t} \approx \mathrm{Prob}(\bar{\iota}_t < \Delta\iota_t; \theta_t)$} to[out=270,in=180] (6.1,0.05);
+
+	        \end{axis}
+
+		\end{tikzpicture}
+		
+\end{document}

@@ -1,0 +1,6 @@
+PWD /Users/rorymullen/Documents/learn/show/rorymullen.net/figures/201610_vintagecapital/tech_choice
+INPUT /usr/local/texlive/2023/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/rorymullen/Documents/learn/show/rorymullen.net/figures/201610_vintagecapital/tech_choice/preamble.tex
+OUTPUT preamble.log

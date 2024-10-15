@@ -1,0 +1,121 @@
+% PACKAGES
+\usepackage{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
+\usepackage[UKenglish]{isodate}% http://ctan.org/pkg/isodate
+\usepackage{float}
+\usepackage{array}
+\usepackage{chngcntr}
+\usepackage[autostyle]{csquotes}
+\usepackage{fancyhdr}
+\usepackage{pgfplots}
+\usepackage{multirow}
+\usepackage{pgfplotstable}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{longtable}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage{comment}
+\usepackage{dcolumn}
+\usepackage{mleftright}
+\usepackage{scalerel}
+\usepackage{calc}
+\usepackage{float}
+\usepackage[labelfont=bf, singlelinecheck=false, font={normalsize}]{caption}
+\usepackage{subcaption}
+\usepackage{xargs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{cases}
+\usepackage{bm}
+\usepackage{bbm}
+% \usepackage{euscript} %for subspace S notation with \EuScript{}
+% \allowdisplaybreaks
+\usepackage{adjustbox}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{ragged2e}
+\usepackage[T1]{fontenc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% external references
+\usepackage{xr}
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Margins
+\usepackage[
+	a4paper,
+	left=2.54cm,
+	right=2.54cm,
+	top=2.54cm,
+	bottom=2.54cm
+]{geometry} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Primary colour for figures and text
+\definecolor{pricolor}{rgb}{.25, .25, .25}
+\color{pricolor}
+
+% Link colors for citations and sections
+\definecolor{softred}{rgb}{0.6, 0.2, 0.2}
+\definecolor{softblue}{rgb}{0.2, 0.2, 0.6}
+
+% Background color for figures and text
+\definecolor{background}{rgb}{1, 1, 1}
+\pagecolor{background}
+
+% Colours
+\usepackage[
+	colorlinks=true,
+	urlcolor=pricolor,
+	citecolor=blue,
+	linkcolor=blue,
+	anchorcolor=pricolor
+]{hyperref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math delimiter typesetting
+\delimitershortfall-1sp
+\mleftright
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Related to tikz
+\pgfplotsset{compat=1.14}
+\pgfplotsset{compat=1.16}
+\usepgfplotslibrary{dateplot}
+\usetikzlibrary{arrows.meta, positioning, calc}
+\usepgfplotslibrary{fillbetween}
+\usepgfplotslibrary{groupplots}
+\pgfmathdeclarefunction{gauss}{3}{%
+	\pgfmathparse{exp(-((x-#2)^2)/(2*#3^2))/sqrt(2*pi*#3^2)}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define notation
+
+\DeclareMathOperator*{\Var}{Var}
+\DeclareMathOperator*{\Cov}{Cov}
+\DeclareMathOperator*{\AVar}{AVar}
+\DeclareMathOperator*{\plim}{plim}
+\newcommand{\E}{\operatorname{E}}
+\newcommandx{\mi}{\scalerel*{(-)}{x}} % decorator for expectation operator
+\newcommand{\emin}[2][t]{\operatorname{E}^{\mi}_{#1}\left\lbrack #2 \right\rbrack } % expectation operator
+\DeclareMathOperator{\sign}{sign} % sign operator
+\newcommand{\dif}{\mathop{}\!{d}} % integral difference operator
+\newcommandx{\aper}[1][1=2]{O\left(\epsilon^{#1}\right)} % approximation error
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Float placement
+
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.9}
+\setcounter{totalnumber}{5}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}

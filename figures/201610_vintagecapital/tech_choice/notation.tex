@@ -1,0 +1,257 @@
+\label{FORMATTING_AND_COLOR___________________}
+\newcommand{\beamcol}{black} % sets a color for use in beamer. Toggle to black for paper.
+
+\label{OPERATORS___________________}
+\newcommand{\e}[2][]{{\operatorname{E}}_{#1} \left\lbrack #2 \right\rbrack} % expectation
+\newcommand{\lebm}[1][\indf]{\lambda(d {#1})} % Lebesgue measure
+\newcommand{\from}{\colon} % Use in mappings, e.g. f \from \Alpha \to \Omega
+\newcommand{\valfct}[1][t]{V\left({#1}\right)}
+\newcommand{\Var}[2][]{\operatorname{Var}_{#1} \left( #2 \right)}
+\newcommand{\Cov}[2][]{\operatorname{Cov}_{#1} \left( #2 \right)}
+\newcommand{\Corr}[2][]{\operatorname{Corr}_{#1} \left( #2 \right)}
+
+\label{SETS_AND_INDICES___________________}
+% Sets
+\newcommand{\sett}{\mathcal{T}} % time parameter space
+\newcommand{\settt}[1][t]{\mathcal{T}_{#1}} % time parameter space
+
+\newcommand{\setf}{\Omega} % firm parameter space
+\newcommand{\setv}{\mathcal{V}} % technology vintage parameter space
+\newcommand{\setfv}{\Omega_{v}}
+\newcommand{\tecsetf}[1][]{\setv_{#1}(\indf)} % technology set, firm
+\newcommand{\tecsetfs}[1][t]{\setv_{#1}(\indf_1)} % technology set, specific firm 1
+\newcommand{\tecsetfss}[1][t]{\setv_{#1}(\indf_2)} % technology set, specific firm 2
+
+% Indices
+\newcommand{\indv}{v} % technology vintage index
+\newcommand{\indf}{\omega} % firm index
+\newcommand{\indfs}{\indf_1} % firm index, specific firm 1
+\newcommand{\indfss}{\indf_2} % firm index, specific firm 2
+\newcommand{\indfsss}{\indf_3} % firm index, specific firm 3
+\newcommand{\indfssss}{\indf_4} % firm index, specific firm 4
+\newcommand{\indfsssss}{\indf_5} % firm index, specific firm 5
+\newcommand{\indfa}[1][i]{\indf_{#1}} % firm index, arbitrary firm index, i.e. the "i" on ω*_i 
+\newcommand{\indthf}[1][\indfa]{\indf^{\ast}_{{#1}}} % firm index for threshold firm ω*_i
+\newcommand{\adindthf}{\underline{\indf}^{\ast}_{\indfa}} % firm index for adopting threshold firm ω*_i
+\newcommand{\abindthf}{\overline{\indf}^{\ast}_{\indfa}} % firm index for abandoning threshold firm ω*_i
+\newcommand{\indfmin}{\indf_\text{min}} % index for least productive firm
+\newcommand{\indfmax}{\indf_\text{max}} % index for most productive firm
+
+\label{MOMENTS_OF_RANDOM_VARIABLES___________________}
+\newcommand{\varv}{\sigma_{\epsilon}^2} % variance of Z_t,v, technology productivity 
+\newcommand{\var}{\sigma^2} % variance of Z_t, aggregate productivity
+
+\label{HOUSEHOLDS___________________}
+\newcommand{\sd}{\beta} % subjective discount factor
+\newcommand{\cb}[1][t]{C_{#1}} % consumption basket
+\newcommand{\cbss}[1][]{C_{#1}^{\ast}} % consumption basket
+\newcommand{\cfv}[1][t]{c_{{#1}}(\indv,\indf) } % consumption, firm-vintage 
+\newcommand{\cfvs}[1][t]{c_{{#1}}(\indv^{\prime},\indf^{\prime}) } % consumption, specific firm 1-vintage 
+\newcommand{\ak}[1][t]{K_{#1}} % aggregate capital stock
+\newcommand{\akss}[1][]{K_{#1}^{\ast}} % aggregate capital stock
+\newcommand{\al}{L} % aggregate labor supply
+\newcommand{\inv}[1][t]{I_{#1}} % household investment demand
+\newcommand{\invss}[1][]{I_{#1}^{\ast}} % household investment demand
+\newcommand{\invsup}[1][t]{\tilde{I}_{#1}} % investment supply
+\newcommand{\valf}[1][t]{V_{#1}(\indf)} % value, firm
+\newcommand{\shf}[1][t]{S_{#1}(\indf)} % share of equity, firm
+\newcommand{\std}[2]{m_{{#1},{#2}}} % stochastic discount factor
+\newcommand{\util}[1][s]{u(\cb[{#1}])} % period utility
+\newcommand{\Util}[1][t]{U_{#1}} % period utility
+\newcommand{\utilss}[1][]{u(\cb[]^{\ast})} % period utility
+\newcommand{\utillog}[1][s]{\ln({\cb[{#1}]})} % period utility
+\newcommand{\mutil}[1][s]{u^{\prime}(\cb[{#1}])} % period marginal utility
+\newcommand{\dep}{\delta} % capital depreciation rate
+\newcommand{\es}{\theta} % elasticity of substitution
+\newcommand{\pind}[1][t]{P_{#1}} % price index
+\newcommand{\pfv}[1][t]{P_{{#1}}(\indv,\indf)}
+\newcommand{\pfvs}[1][t]{P_{{#1}}(\indv^{\prime},\indf^{\prime})}
+\newcommand{\expend}[1][t]{E_{{#1}}}
+\newcommand{\Lagr}{\mathcal{L}} % Lagrangian value
+\newcommand{\lagr}[1][t]{\lambda_{#1}} % Lagrange multiplier
+\newcommand{\lagrss}[1][]{\lambda_{#1}^{\ast}} % Lagrange multiplier
+
+\label{PRODUCERS_CONSUMPTION___________________}
+ % Production
+\newcommand{\ofv}[1][t]{y_{{#1}}(\indv,\indf)} % output, firm-vintage  
+\newcommand{\mpf}[1][\indf]{z({#1})} % managerial productivity, firm
+\newcommand{\mpfs}{z(\indf_1)} % managerial productivity, firm
+\newcommand{\mpfss}{z(\indf_2)} % managerial productivity, firm
+\newcommand{\mpfmin}{z_{\text{min}}} % minimum managerial productivity, firm
+\newcommand{\mpfmax}{z_{\text{max}}} % minimum managerial productivity, firm
+\newcommand{\parsh}{\kappa} % pareto shape parameter
+\newcommand{\cds}{\alpha} % cobb douglas share parameter
+
+\newcommand{\tpv}[1][t]{z_{{#1}}(\indv)} % technological productivity, vintage
+\newcommand{\tpvs}[1][t]{z_{{#1}}(\indv^{\prime})} % technological productivity, vintage
+% \newcommand{\tpv}[1][t]{z_{{#1}}(\indv)} % technological productivity, vintage
+\newcommand{\tpvf}[1][\lceil \indv \rceil]{\epsilon_{s, #1 }} % technological productivity, fundamental
+\newcommand{\tpvft}[1][\lceil \indv \rceil]{\epsilon_{t, #1 }}
+\newcommand{\tpvz}[1][t]{Z_0} % technological productivity, vintage zero
+\newcommand{\extpv}{\mu_{\epsilon}} % technological productivity, vintage expected
+\newcommand{\vartpv}{\sigma^2_{\epsilon}} % technological productivity, vintage variance
+\newcommand{\kfv}[1][t]{k_{{#1}}(\indv,\indf)} % capital, firm-vintage
+\newcommand{\lfv}[1][t]{l_{{#1}}(\indv,\indf)} % labor, firm-vintage
+\newcommand{\kfvss}[1][]{k_{{#1}}^{\ast}(\indv,\indf)} % capital, firm-vintage
+\newcommand{\lfvss}[1][]{l_{{#1}}^{\ast}(\indv,\indf)} % labor, firm-vintage
+
+ % Profit
+\newcommand{\tecsetthf}[1][\indthf]{\mathcal{V}_{t}(#1)} % technology set for threshold firm
+\newcommand{\tecsetfspec}[1][t]{\mathcal{V}_{#1}(\indf_1)} % technology set, firm
+\newcommand{\pif}[1][t]{\Pi_{#1}(\indf)} % profit, firm
+\newcommand{\pifv}[1][t]{\pi_{{#1}}(\indv,\indf)} % profit, firm-vintage
+\newcommand{\pifvs}[1][t]{\pi_{{#1}}(\indv,\indfs)} % profit, firm-vintage
+\newcommand{\pifvss}[1][t]{\pi_{{#1}}(\indv,\indfss)} % profit, firm-vintage
+\newcommand{\pifvsss}[1][t]{\pi_{{#1}}(\indv,\indfsss)} % profit, firm-vintage
+\newcommand{\pifvssss}[1][t]{\pi_{{#1}}(\indv,\indfssss)} % profit, firm-vintage
+\newcommand{\pifvsssss}[1][t]{\pi_{{#1}}(\indv,\indfsssss)} % profit, firm-vintage
+\newcommand{\rpfv}[1][t]{p_{{#1}}(\indv,\indf)} % rel price, firm-vintage
+\newcommand{\rpfvs}[1][t]{p_{{#1}}(\indv^{\prime},\indf^{\prime})} % rel price, specific firm 1-vintage
+\newcommand{\rw}[1][t]{w_{#1}} % real wage
+\newcommand{\rr}[1][t]{r_{#1}} % real rate of interest
+\newcommand{\rwss}[1][]{w_{#1}^{\ast}} % real wage
+\newcommand{\rrss}[1][]{r_{#1}^{\ast}} % real rate of interest
+
+ % Technology
+\newcommand{\tm}{\mu} % maturity; never in text, only in \newcommands
+\newcommand{\tmv}[1][t]{\tm_{{#1},\indv}} % technological maturity, vintage
+\newcommand{\tacv}[1][t]{f(#1,\indv)} % technology adoption cost, vintage
+\newcommand{\pfcy}[1][t]{\tilde{f}(#1-\indv)} % period fixed cost*Y, vintage
+\newcommand{\pfc}[1][s]{f_{{#1}}(\indv)} % period fixed cost, vintage
+\newcommand{\pfcf}[1][s]{F_{#1}(\indf)} % period fixed cost, firm
+\newcommand{\fixcpz}{f_0} % period fixed cost parameter f_0
+\newcommand{\fixcpo}{f_1} % period fixed cost parameter f_1
+\newcommand{\fcp}{\gamma}
+\newcommand{\tavfv}[1][t]{\underline{\tilde{X}}_{{#1},\indv}(\indf)} % tech adoption value, firm vintage
+\newcommand{\tabvfv}[1][t]{\overline{\tilde{X}}_{{#1},\indv}(\indf)} % tech abandonment value, firm vintage
+\newcommand{\simptavfv}[1][t]{\underline{X}_{{#1},\indv}(\indf)} % simple tech adoption value, firm vintage
+\newcommand{\simptabvfv}[1][t]{\overline{X}_{{#1},\indv}(\indf)} % simple tech abandonment value, firm vintage
+\newcommand{\adoptIO}[1][t]{a_{{#1},\indv}(\indf)} % adoption choice, firm vintage
+\newcommand{\adtimethfv}[1][\indf]{\underline{t}_\indv(#1)} % threshold adoption time for threshold firm
+\newcommand{\abtimethfv}[1][\indf]{\overline{t}_\indv(#1)} % threshold abandonment time, firm vintage
+\newcommand{\adtimefv}[1][\indf]{\underline{t}_\indv(#1)} % adoption time, firm vintage
+\newcommand{\abtimefv}[1][\indf]{\overline{t}_\indv(#1)} % abandonment time, firm vintage
+\newcommand{\tstar}{T^{\ast}} % adoption age, min productivity firm
+\newcommand{\gr}{g} % growth rate of technological productivity
+
+\label{CAPITAL_PRODUCERS___________________}
+\newcommand{\lcg}[1][t]{l_{#1}} % labor, capital goods producer
+\newcommand{\lcgss}[1][]{l_{#1}^{\ast}} % labor, capital goods producer
+\newcommand{\kcg}[1][t]{k_{#1}} % capital, capital goods producer
+\newcommand{\kcgss}[1][]{k_{#1}^{\ast}} % capital, capital goods producer
+\newcommand{\picg}[1][t]{\pi_{#1}} % profit, capital goods producer
+
+
+\label{AGGREGATE_VARIABLES___________________}
+ % Aggregates
+\newcommand{\apf}[1][t]{Z_{{#1}}(\indf)} % aggregate productivity, firm
+\newcommand{\apfs}[1][t]{Z_{{#1}}(\indf_{1})} % aggregate productivity, firm
+\newcommand{\apfss}[1][t]{Z_{{#1}}(\indf_{2})} % aggregate productivity, firm
+\newcommand{\apfspec}[1][\indthf]{Z_{t}({#1})} % aggregate productivity, firm
+\newcommand{\exapf}[1][]{\mu_{{#1}}(\indf)} % aggregate productivity, firm
+\newcommand{\exapfs}[1][t]{\mu_{{#1}}(\indf_1)} % aggregate productivity, firm
+\newcommand{\exapfss}[1][t]{\mu_{{#1}}(\indf_2)} % aggregate productivity, firm
+\newcommand{\varapf}[1][]{\sigma^2_{{#1}}(\indf)} % aggregate productivity, firm
+\newcommand{\varapfs}[1][t]{\sigma^2_{{#1}}(\indf_1)} % aggregate productivity, firm
+\newcommand{\varapfss}[1][t]{\sigma^2_{{#1}}(\indf_2)} % aggregate productivity, firm
+\newcommand{\aof}[1][t]{Y_{{#1}}(\indf)} % aggregate output, firm
+
+\newcommand{\ape}[1][t]{Z_{{#1}}} % aggergate productivity, economy
+\newcommand{\exape}[1][]{\mu_{{#1}}} % aggergate productivity, economy
+\newcommand{\varape}[1][]{\sigma^2_{{#1}}} % aggergate productivity, economy
+\newcommand{\sdape}[1][]{\sigma_{{#1}}} % aggergate productivity, economy
+\newcommand{\aoe}[1][t]{Y_{{#1}}} % aggregate output, economy
+\newcommand{\oake}[1][t]{K_{{#1}}} %  optimal aggregate capital, economy, used to have ^{\star}
+\newcommand{\oakf}[1][t]{K_{{#1}}(\indf)} % optimal aggregate capital, firm
+\newcommand{\okfv}[1][t]{k_{{#1},\indv}(\indf)} % optimal capital, firm vintage
+\newcommand{\okfvffp}[1][t]{k_{{#1},\indv}(\indf; \rr,\rw,\apf,\aoe)} % \okfv as fct of factor prices
+\newcommand{\oale}[1][t]{L_{{#1}}} % optiamal aggregate labor, economy
+\newcommand{\oalf}[1][t]{L_{{#1}}(\indf)} % optiamal aggregate labor, firm
+\newcommand{\olfv}[1][t]{l_{{#1},\indv}(\indf)} % optimal labor, firm vintage
+\newcommand{\olfvffp}[1][t]{l_{{#1},\indv}(\indf; \rr,\rw,\apf,\aoe)} % \olfv as fct of factor prices
+
+\label{PROPOSITION_TECH_ADOPTION___________________}
+\newcommand{\indvubf}{\overline{\indv}(\indf)} % Techonlogy cut-off , firm
+\newcommand{\indvubfs}{\overline{\indv}(\indfs)} % Techonlogy cut-off , firm
+\newcommand{\indvlb}[1][]{\underline{\indv}_{#1}} % technology vintage lower bound
+\newcommand{\mpflbv}{\underline{z}(\indv)} % Productivity cut-off, vintage
+\newcommand{\mpflb}{\underline{z}} 
+\newcommand{\mpflbr}{\underline{z}_{r}}
+\newcommand{\covpfa}{\sigma_{\scaleto{\indf \setf}{3pt}}(\indf)} % Covariance between firm and aggregate productivity
+\newcommand{\corpff}{\rho_{\scaleto{\indfs \indfss}{2pt}}(\indf)} % Correlation between two firms
+\newcommand{\covpfacas}{\zeta_{{\scaleto{\indf \setf 1}{3pt}}}} % Catch-all for firm-agg covariance
+\newcommand{\covpfacass}{\zeta_{\scaleto{\indf \setf 2}{3pt}}} % Catch-all for firm-agg covariance
+\newcommand{\valfcas}{\zeta_{{\scaleto{V 1}{3pt}}}} % Catch-all for firm value
+\newcommand{\valfcass}{\zeta_{{\scaleto{V 2}{3pt}}}} % Catch-all for firm value
+\newcommand{\valfcasss}{\zeta_{{\scaleto{V 3}{3pt}}}} % Catch-all for firm value
+\newcommand{\valfcassss}{\zeta_{{\scaleto{V 4}{3pt}}}} % Catch-all for firm value
+
+
+
+\label{PROPOSITION_AGGREGATION___________________}
+% In-text model names
+\newcommand{\modmainname}{Main Economy}
+\newcommand{\modonename}{Economy 1}
+\newcommand{\modtwoname}{Economy 2}
+
+ % Comparison Economy 1
+\newcommand{\modone}{} % Character that marks variables in Economy 1
+\newcommand{\modoneindf}{\indf^{\modone}} % Index for firms in Economy 1
+\newcommand{\modonesetf}{\Omega^{^{\modone}}}
+\newcommand{\modonecf}[1][t]{c_{{#1}}(\modoneindf)} % model 1 consumption, firm
+\newcommand{\modoneof}[1][t]{y_{{#1}}^{\modone}(\modoneindf)} % model 1 output, firm
+\newcommand{\modonetpf}[1][t]{z_{{#1}}^{\modone}(\modoneindf)} % model 1 technological productivity, firm
+\newcommand{\modonekf}[1][t]{k_{{#1}}^{\modone}(\modoneindf)} % model 1 capital, firm
+\newcommand{\modonelf}[1][t]{l_{{#1}}^{\modone}(\modoneindf)} % model 1 labor, firm
+\newcommand{\modonerpf}[1][t]{p_{{#1}}^{\modone}(\modoneindf)} % model 1 rel price, firm-vintage
+\newcommand{\modonepif}[1][t]{\pi_{#1}^{\modone}(\modoneindf)} % model 1 profit, firm
+\newcommand{\modonepfcf}[1][t]{f_{{#1}}^{\modone}(\modoneindf)} % model 1 period fixed cost, firm
+
+ % Comparison Economy 2
+\newcommand{\modtwo}{} % Character that marks variables in Economy 1
+\newcommand{\modtwoindf}{\indf^{\modtwo}} % Index for firms in Economy 1
+\newcommand{\modtwosetf}{\Omega^{^{\modtwo}}}
+\newcommand{\modtwocf}[1][t]{c_{{#1}}} % model 2 consumption, firm
+\newcommand{\modtwoof}[1][t]{y_{{#1}}^{\modtwo}} % model 2 output, firm
+\newcommand{\modtwotpf}[1][t]{z_{{#1}}^{\modtwo}} % model 2 technological productivity, firm
+\newcommand{\modtwokf}[1][t]{k_{{#1}}^{\modtwo}} % model 2 capital, firm
+\newcommand{\modtwolf}[1][t]{l_{{#1}}^{\modtwo}} % model 2 labor, firm
+\newcommand{\modtworpf}[1][t]{p_{{#1}}^{\modtwo}} % model 2 rel price, firm-vintage
+\newcommand{\modtwopif}[1][t]{\pi_{#1}^{\modtwo}} % model 2 profit, firm
+\newcommand{\modtwopfcf}[1][t]{f_{{#1}}^{\modtwo}} % model 2 period fixed cost, firm
+\newcommand{\modoneprodmap}{f^{\modone}} % mapping of firms from main economy to
+
+
+\label{PROPOSITION_MOMENTS___________________}
+% Momoents of aggregate productivity, firm
+\newcommand{\exapfca}{\zeta_{{\scaleto{\mu \omega}{3pt}}}} % Catch-all for expected prod, firm
+\newcommand{\exapfcas}{\zeta_{{\scaleto{\mu \omega 1}{3pt}}}} % Catch-all for expected prod, firm
+\newcommand{\exapfcass}{\zeta_{{\scaleto{\mu \omega 2}{3pt}}}} % Catch-all for expected prod, firm
+\newcommand{\varapfca}{\zeta_{{\scaleto{\sigma \omega}{2pt}}}} % Catch-all for firm variance
+\newcommand{\varapfcas}{\zeta_{{\scaleto{\sigma \omega 1}{2pt}}}} % Catch-all for firm variance
+\newcommand{\varapfcass}{\zeta_{{\scaleto{\sigma \omega 2}{2pt}}}} % Catch-all for firm variance
+% Momoents of aggregate productivity, economy
+\newcommand{\exapeca}{\zeta_{{\scaleto{\mu}{3pt}}}} % Catch-all for expected prod, economy
+\newcommand{\exapecas}{\zeta_{{\scaleto{\mu 1}{3pt}}}} % Catch-all for expected prod, economy
+\newcommand{\exapecass}{\zeta_{{\scaleto{\mu 2}{3pt}}}} % Catch-all for expected prod, economy
+\newcommand{\varapeca}{\zeta_{\scaleto{\sigma}{2pt}}} % Catch-all for agg var, economy
+\newcommand{\varapecas}{\zeta_{\scaleto{\sigma 1}{2pt}}} % Catch-all for agg var, economy
+\newcommand{\varapecass}{\zeta_{\scaleto{\sigma 2}{2pt}}} % Catch-all for agg var, economy
+
+\label{PROPOSITION_STOCK_RETURNS___________________}
+\newcommand{\retrf}[1][t]{r_{f, {#1}}} % risk-free return
+\newcommand{\retf}[1][t]{r_{{#1}}(\indf)} % stock return, firm
+\newcommand{\retfcas}{\zeta_{{\scaleto{r 1}{4pt}}}} % Catch-all for returns, 1
+\newcommand{\retfcass}{\zeta_{{\scaleto{r 2}{4pt}}}} % Catch-all for returns, 1
+
+
+
+\label{PRODUCTIVITY_ESTIMATION___________________}
+\newcommand{\aofreg}[1][t]{Y_{\indf,{#1}}} % aggregate output, firm, discrete
+\newcommand{\oakfreg}[1][t]{K_{\indf,{#1}}} % aggregate output, firm, discrete
+\newcommand{\cdskreg}{\alpha_{K}} % cobb douglas share parameter
+\newcommand{\oalfreg}[1][t]{L_{\indf,{#1}}} % aggregate output, firm, discrete
+\newcommand{\oaifreg}[1][t]{I_{\indf,{#1}}} % aggregate output, firm, discrete
+\newcommand{\cdslreg}{\alpha_{L}} % cobb douglas share parameter
+\newcommand{\cdsnullreg}{\alpha_{0}} % cobb douglas share parameter
+\newcommand{\apfref}[1][t]{Z_{\indf,{#1}}} % aggregate productivity, firm

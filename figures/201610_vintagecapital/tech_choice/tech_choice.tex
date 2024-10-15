@@ -1,0 +1,61 @@
+\documentclass[tikz]{standalone}
+\input{preamble.tex}
+\input{notation.tex}
+\begin{document}
+
+	\begin{tikzpicture}[domain=0:10, inner sep = 0.5cm]
+		\begin{axis}[
+			axis on top=true,
+			width=0.95\textwidth, 
+			height=0.4\textwidth, 
+			axis lines=left, 
+			xtick=\empty, 
+			ytick=\empty, 
+			every axis x label/.style={at={(current axis.right of origin)},anchor=west},
+			xlabel style={align=left},
+			xlabel= {Technology \\ Index $v$},
+			ylabel style={align=center},
+			ylabel= {Expected gross profit, \\ Period fixed cost},
+            y label style={
+                at={(axis description cs:0.22,1.125)}, 
+                align=left,
+                anchor=east,
+                rotate=270,
+            },
+			xmin=0,
+			ymin=0,
+			ymax = 75,
+			extra y tick style={yticklabel style={yshift=0.5ex, anchor=east}},
+			enlarge y limits={rel=0.15,upper},
+			enlarge x limits={rel=0.15,upper},
+			clip=false,
+			extra x ticks={0.5, 2.714},
+			extra x tick labels = {$\phantom{(}\underline{\indv}\phantom{)}$, $\overline{\indv}(\omega)$},
+			xticklabel style={name=T\ticknum},% names every xtick label node T0,T1, ...
+		]
+		% Creates horizontal gross profit line with partial domain for filling
+				\addplot[name path=B, domain = 0.5:4, smooth, thick, color=pricolor, mark=none, pricolor] {30};
+
+				% Adds a second plot with full domain
+				\addplot[domain = 0:4, smooth, thick, color=pricolor, mark=none, pricolor] {30}
+				node[pos=1, right]{$\e[t]{ \frac{ \pifv[t+1]}{ \aoe[t+1]}}$};
+
+		% Creates cubic cost function
+				\addplot[name path=A, domain = 0.5:4, smooth, thick, color=pricolor, samples=100]{\x^3 + 10}
+				node[pos=1, right]{$\e[t]{\frac{ \pfc[t+1]}{ \aoe[t+1]}}$};
+
+		% Fills between curves
+				\addplot[pricolor!25] fill between[of=A and B];
+				\node[pricolor, text width=1.2cm] at (1.3,22) {$\e{\,\text{profit}\,}$};
+				\node[pricolor, text width=1.2cm] at (3.55,40) {$\e{\,\text{loss}\,}$};
+
+		% Labels cost threshold
+				\draw[dashed] (0.5,0)--(0.5,10.125);
+				\node [pricolor] at (0.5,10.125) {$\bullet$};
+				\draw[dashed] (2.714,0)--(2.714,30);
+				\node [pricolor] at (2.714,30) {$\bullet$};
+		\end{axis}
+
+	\end{tikzpicture}
+
+	\end{document}
