@@ -1,2 +1,2 @@
-# rorymullen.net
+# www.rorymullen.net
 Rory Mullen's Academic Website
